@@ -11,7 +11,19 @@ const rules = {
     return `${firstNum} ${operations[randomUptoThree]} ${secondNum}`;
   },
   getRightAnswer(question) {
-    return eval(question).toString();
+    let [first, , second] = question.split(' ');
+    const [, sign] = question.split(' ');
+    first = +first;
+    second = +second;
+    let result;
+    if (sign === '+') {
+      result = first + second;
+    } else if (sign === '-') {
+      result = first - second;
+    } else {
+      result = first * second;
+    }
+    return result.toString();
   },
 };
 

@@ -25,12 +25,10 @@ const rules = {
     const indexOfMissingValue = array.findIndex((element) => element === '..');
     let missingValue;
     if (indexOfMissingValue >= array.length - 2) {
-      const difference =
-        array[indexOfMissingValue - 1] - array[indexOfMissingValue - 2];
+      const difference = array[indexOfMissingValue - 1] - array[indexOfMissingValue - 2];
       missingValue = Number(array[indexOfMissingValue - 1]) + difference;
     } else {
-      const difference =
-        array[indexOfMissingValue + 2] - array[indexOfMissingValue + 1];
+      const difference = array[indexOfMissingValue + 2] - array[indexOfMissingValue + 1];
       missingValue = Number(array[indexOfMissingValue + 1]) - difference;
     }
     return missingValue.toString();
