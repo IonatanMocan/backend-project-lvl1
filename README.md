@@ -13,3 +13,7 @@
 ## ASCIINEMA step #6
 
 [![asciicast](https://asciinema.org/a/2NGhyD2lQhhEbq9Eeq2wahcPU.svg)](https://asciinema.org/a/2NGhyD2lQhhEbq9Eeq2wahcPU)
+
+## ASCIINEMA step #7
+
+[![asciicast](https://asciinema.org/a/Pq96Ay52EHhy1AAjIqvrf7ygm.svg)](https://asciinema.org/a/Pq96Ay52EHhy1AAjIqvrf7ygm)
