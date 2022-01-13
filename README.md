@@ -17,3 +17,11 @@
 ## ASCIINEMA step #7
 
 [![asciicast](https://asciinema.org/a/Pq96Ay52EHhy1AAjIqvrf7ygm.svg)](https://asciinema.org/a/Pq96Ay52EHhy1AAjIqvrf7ygm)
+
+## ASCIINEMA step #8
+
+[![asciicast](https://asciinema.org/a/4lJCfyAn5rglGMfxrBomwsJ1U.svg)](https://asciinema.org/a/4lJCfyAn5rglGMfxrBomwsJ1U)
+
+## ASCIINEMA step #9
+
+[![asciicast](https://asciinema.org/a/1g8WUVQA5ga1Somd3hl77SPmI.svg)](https://asciinema.org/a/1g8WUVQA5ga1Somd3hl77SPmI)

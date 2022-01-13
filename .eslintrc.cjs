@@ -11,5 +11,7 @@ module.exports = {
   rules: {
     'no-console': 0,
     'import/extensions': 0,
+    'no-eval': 0,
+    'operator-linebreak': 0,
   },
 };
