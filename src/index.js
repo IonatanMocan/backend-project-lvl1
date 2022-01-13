@@ -27,7 +27,7 @@ const startGame = ({ gameRule, generatedQuestion, getRightAnswer }) => {
     }
   }
   if (!failure) {
-    console.log(`Congratulations, ${name}`);
+    console.log(`Congratulations, ${name}!`);
   }
 };
 
