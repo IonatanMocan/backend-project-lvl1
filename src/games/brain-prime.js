@@ -1,7 +1,10 @@
-const brainPrimeGame = {
+import startGame from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
+
+const rules = {
   gameRule: 'Answer "yes" if given number is prime. Otherwise answer "no".',
   generatedQuestion() {
-    return Math.round(Math.random() * 1000);
+    return getRandomNumber(1000);
   },
   getRightAnswer(question) {
     if (question <= 3) return question > 1;
@@ -18,6 +21,10 @@ const brainPrimeGame = {
 
     return 'yes';
   },
+};
+
+const brainPrimeGame = () => {
+  startGame(rules);
 };
 
 export default brainPrimeGame;

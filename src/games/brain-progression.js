@@ -1,9 +1,12 @@
-const brainProgressionGame = {
-  gameRule: 'Find the greatest common divisor of given numbers.',
+import startGame from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
+
+const rules = {
+  gameRule: 'What number is missing in the progression?',
   generatedQuestion() {
-    const step = Math.round(Math.random() * 10);
-    const randomPlace = Math.round(Math.random(8) * 10);
-    let start = Math.round(Math.random() * 10);
+    const step = getRandomNumber(11);
+    const randomPlace = getRandomNumber(10);
+    let start = getRandomNumber(10);
     const result = [];
 
     for (let i = 0; i < 10; i += 1) {
@@ -32,6 +35,10 @@ const brainProgressionGame = {
     }
     return missingValue.toString();
   },
+};
+
+const brainProgressionGame = () => {
+  startGame(rules);
 };
 
 export default brainProgressionGame;

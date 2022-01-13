@@ -1,26 +1,28 @@
-const brainGCDGame = {
+import startGame from '../index.js';
+import getRandomNumber from '../getRandomNumber.js';
+
+const rules = {
   gameRule: 'Find the greatest common divisor of given numbers.',
   generatedQuestion() {
-    const first = Math.round(Math.random() * 100);
-    const second = Math.round(Math.random() * 100);
+    const first = getRandomNumber(100);
+    const second = getRandomNumber(100);
     return `${first} ${second}`;
   },
   getRightAnswer(question) {
     const [first, second] = question.split(' ');
     const gcd = (a, b) => {
-      if (a === b) {
+      if (!b) {
         return a.toString();
       }
-      if (a > b) {
-        return gcd(a - b, b);
-      }
-      if (b > a) {
-        return gcd(a, b - a);
-      }
-      return a.toString();
+
+      return gcd(b, a % b);
     };
     return gcd(first, second);
   },
+};
+
+const brainGCDGame = () => {
+  startGame(rules);
 };
 
 export default brainGCDGame;

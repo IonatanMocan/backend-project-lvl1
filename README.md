@@ -8,7 +8,7 @@
 
 ## ASCIINEMA step #5
 
-[![asciicast](https://asciinema.org/a/jamkfK5zqTa5gSatFUk0l7Tel.svg)](https://asciinema.org/a/jamkfK5zqTa5gSatFUk0l7Tel)
+[![asciicast](https://asciinema.org/a/wRTzexi0kMKJ4NzHNAvGWx3Jj.svg)](https://asciinema.org/a/wRTzexi0kMKJ4NzHNAvGWx3Jj)
 
 ## ASCIINEMA step #6
 
@@ -16,7 +16,7 @@
 
 ## ASCIINEMA step #7
 
-[![asciicast](https://asciinema.org/a/Pq96Ay52EHhy1AAjIqvrf7ygm.svg)](https://asciinema.org/a/Pq96Ay52EHhy1AAjIqvrf7ygm)
+[![asciicast](https://asciinema.org/a/aRUxxvhAQw5HjuJPbDlbSDZeA.svg)](https://asciinema.org/a/aRUxxvhAQw5HjuJPbDlbSDZeA)
 
 ## ASCIINEMA step #8
 
