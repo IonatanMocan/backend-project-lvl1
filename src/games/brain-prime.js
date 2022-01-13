@@ -1,5 +1,5 @@
 const brainPrimeGame = {
-  gameRule: 'Find the greatest common divisor of given numbers.',
+  gameRule: 'Answer "yes" if given number is prime. Otherwise answer "no".',
   generatedQuestion() {
     return Math.round(Math.random() * 1000);
   },
