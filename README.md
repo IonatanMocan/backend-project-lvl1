@@ -24,4 +24,4 @@
 
 ## ASCIINEMA step #9
 
-[![asciicast](https://asciinema.org/a/1g8WUVQA5ga1Somd3hl77SPmI.svg)](https://asciinema.org/a/1g8WUVQA5ga1Somd3hl77SPmI)
+[![asciicast](https://asciinema.org/a/tXkhvivYkHMkomR6RzUL0ofpT.svg)](https://asciinema.org/a/tXkhvivYkHMkomR6RzUL0ofpT)
