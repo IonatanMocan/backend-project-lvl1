@@ -35,8 +35,8 @@ const rules = {
   },
 };
 
-const brainProgressionGame = () => {
+const launchBrainProgressionGame = () => {
   startGame(rules);
 };
 
-export default brainProgressionGame;
+export default launchBrainProgressionGame;

@@ -23,8 +23,8 @@ const rules = {
   },
 };
 
-const brainPrimeGame = () => {
+const launchBrainPrimeGame = () => {
   startGame(rules);
 };
 
-export default brainPrimeGame;
+export default launchBrainPrimeGame;

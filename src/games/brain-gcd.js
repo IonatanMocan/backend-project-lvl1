@@ -21,8 +21,8 @@ const rules = {
   },
 };
 
-const brainGCDGame = () => {
+const launchBrainGCDGame = () => {
   startGame(rules);
 };
 
-export default brainGCDGame;
+export default launchBrainGCDGame;

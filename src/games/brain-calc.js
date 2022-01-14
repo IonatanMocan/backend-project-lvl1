@@ -27,8 +27,8 @@ const rules = {
   },
 };
 
-const brainCalcGame = () => {
+const launchBrainCalcGame = () => {
   startGame(rules);
 };
 
-export default brainCalcGame;
+export default launchBrainCalcGame;
