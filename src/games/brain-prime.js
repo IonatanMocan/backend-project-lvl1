@@ -1,30 +1,28 @@
 import startGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-function isPrime(n) {
-  if (Number.isNaN(n) || !Number.isFinite(n) || n % 1 || n < 2) return 'no';
-  if (n % 2 === 0) return 'no';
-  if (n % 3 === 0) return 'no';
-  const squareRootOfN = Math.sqrt(n);
-  for (let i = 5; i <= squareRootOfN; i += 6) {
-    if (n % i === 0) return 'no';
-    if (n % (i + 2) === 0) return 'no';
+const isPrime = (n) => {
+  if (n < 2) return false;
+  for (let i = 2; i < n / 2; i += 1) {
+    if (n % i === 0) {
+      return false;
+    }
   }
-  return 'yes';
-}
+  return true;
+};
 
-const rules = {
-  gameRule: 'Answer "yes" if given number is prime. Otherwise answer "no".',
-  generatedQuestion() {
-    return getRandomNumber(0, 1000);
-  },
-  getRightAnswer(question) {
-    return isPrime(question);
-  },
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const generateValue = () => getRandomNumber(1, 100);
+const getRightAnswer = (question) => (isPrime(question) ? 'yes' : 'no');
+
+const gameLogic = () => {
+  const generatedValue = generateValue();
+  const correctAnswer = getRightAnswer(generatedValue);
+  return [generatedValue, correctAnswer];
 };
 
 const launchBrainPrimeGame = () => {
-  startGame(rules);
+  startGame(rule, gameLogic);
 };
 
 export default launchBrainPrimeGame;

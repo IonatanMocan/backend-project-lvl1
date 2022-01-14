@@ -1,19 +1,17 @@
+import isEven from './isEven.js';
 import startGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const rules = {
-  gameRule: 'Answer "yes" if the number is even, otherwise answer "no".',
-  generatedQuestion() {
-    return getRandomNumber(0, 100);
-  },
-  getRightAnswer(question) {
-    const isEven = (number) => number % 2 === 0;
-    return isEven(question) ? 'yes' : 'no';
-  },
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const gameLogic = () => {
+  const generatedValue = getRandomNumber(0, 100);
+  const correctAnswer = isEven(generatedValue) ? 'yes' : 'no';
+  return [generatedValue, correctAnswer];
 };
 
 const launchBrainEvenGame = () => {
-  startGame(rules);
+  startGame(rule, gameLogic);
 };
 
 export default launchBrainEvenGame;
