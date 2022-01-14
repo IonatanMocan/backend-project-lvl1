@@ -20,7 +20,7 @@
 
 ## ASCIINEMA step #8
 
-[![asciicast](https://asciinema.org/a/4lJCfyAn5rglGMfxrBomwsJ1U.svg)](https://asciinema.org/a/4lJCfyAn5rglGMfxrBomwsJ1U)
+[![asciicast](https://asciinema.org/a/RppgfmEcByy6pMHFzrgHFSPF6.svg)](https://asciinema.org/a/RppgfmEcByy6pMHFzrgHFSPF6)
 
 ## ASCIINEMA step #9
 
