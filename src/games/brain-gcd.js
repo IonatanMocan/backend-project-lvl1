@@ -1,6 +1,8 @@
 import startGame from '../index.js';
 import getRandomNumber from '../getRandomNumber.js';
 
+const findGCD = (a, b) => (!b ? a.toString() : findGCD(b, a % b));
+
 const rules = {
   gameRule: 'Find the greatest common divisor of given numbers.',
   generatedQuestion() {
@@ -10,14 +12,7 @@ const rules = {
   },
   getRightAnswer(question) {
     const [first, second] = question.split(' ');
-    const gcd = (a, b) => {
-      if (!b) {
-        return a.toString();
-      }
-
-      return gcd(b, a % b);
-    };
-    return gcd(first, second);
+    return findGCD(first, second);
   },
 };
 
