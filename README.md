@@ -8,7 +8,7 @@
 
 ## ASCIINEMA step #5
 
-[![asciicast](https://asciinema.org/a/wRTzexi0kMKJ4NzHNAvGWx3Jj.svg)](https://asciinema.org/a/wRTzexi0kMKJ4NzHNAvGWx3Jj)
+[![asciicast](https://asciinema.org/a/TQCMDu4QcT5qd9h3LRTx4nTOJ.svg)](https://asciinema.org/a/TQCMDu4QcT5qd9h3LRTx4nTOJ)
 
 ## ASCIINEMA step #6
 
