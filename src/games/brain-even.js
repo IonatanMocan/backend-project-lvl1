@@ -7,7 +7,8 @@ const rules = {
     return getRandomNumber(0, 100);
   },
   getRightAnswer(question) {
-    return question % 2 === 0 ? 'yes' : 'no';
+    const isEven = (number) => number % 2 === 0;
+    return isEven(question) ? 'yes' : 'no';
   },
 };
 
