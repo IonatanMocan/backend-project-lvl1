@@ -16,7 +16,7 @@ function isPrime(n) {
 const rules = {
   gameRule: 'Answer "yes" if given number is prime. Otherwise answer "no".',
   generatedQuestion() {
-    return getRandomNumber(1000);
+    return getRandomNumber(0, 1000);
   },
   getRightAnswer(question) {
     return isPrime(question);

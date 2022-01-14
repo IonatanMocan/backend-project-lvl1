@@ -4,13 +4,13 @@ import getRandomNumber from '../getRandomNumber.js';
 const rules = {
   gameRule: 'What number is missing in the progression?',
   generatedQuestion() {
-    const step = getRandomNumber(11);
-    const randomPlace = getRandomNumber(10);
-    let start = getRandomNumber(10);
+    const step = getRandomNumber(1, 10);
+    const randomIndexInArray = getRandomNumber(0, 9);
+    let start = getRandomNumber(0, 10);
     const result = [];
 
     for (let i = 0; i < 10; i += 1) {
-      if (i === randomPlace) {
+      if (i === randomIndexInArray) {
         result.push('..');
         start += step;
       } else {

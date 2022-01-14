@@ -4,8 +4,8 @@ import getRandomNumber from '../getRandomNumber.js';
 const rules = {
   gameRule: 'Find the greatest common divisor of given numbers.',
   generatedQuestion() {
-    const first = getRandomNumber(100);
-    const second = getRandomNumber(100);
+    const first = getRandomNumber(0, 100);
+    const second = getRandomNumber(0, 100);
     return `${first} ${second}`;
   },
   getRightAnswer(question) {
