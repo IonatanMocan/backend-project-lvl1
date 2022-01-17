@@ -16,17 +16,15 @@ const isPrime = (number) => {
 };
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const generateValue = () => getRandomNumber(1, 100);
-const getRightAnswer = (question) => (isPrime(question) ? 'yes' : 'no');
 
-const gameLogic = () => {
-  const generatedValue = generateValue();
-  const correctAnswer = getRightAnswer(generatedValue);
-  return [generatedValue, correctAnswer];
+const getGameQuestionAndAnswer = () => {
+  const gameQuestion = getRandomNumber(1, 100);
+  const gameAnswer = isPrime(gameQuestion) ? 'yes' : 'no';
+  return [gameQuestion, gameAnswer];
 };
 
 const launchBrainPrimeGame = () => {
-  startGame(rule, gameLogic);
+  startGame(rule, getGameQuestionAndAnswer);
 };
 
 export default launchBrainPrimeGame;
