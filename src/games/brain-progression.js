@@ -3,7 +3,7 @@ import getRandomNumber from '../getRandomNumber.js';
 
 const rule = 'What number is missing in the progression?';
 
-const getProgressionAndSecretValue = ({
+const getProgression = ({
   initialNumber,
   step,
   length,
@@ -11,35 +11,28 @@ const getProgressionAndSecretValue = ({
 }) => {
   let firstNumber = initialNumber;
   const progressionArray = [];
-  let gameAnswer;
   for (let i = 0; i < length; i += 1) {
-    let itemToBeAdded;
-    if (i === randomIndex) {
-      itemToBeAdded = '..';
-      gameAnswer = firstNumber.toString();
-    } else {
-      itemToBeAdded = firstNumber;
-    }
+    const itemToBeAdded = i === randomIndex ? '..' : firstNumber;
     progressionArray.push(itemToBeAdded);
     firstNumber += step;
   }
-  const gameQuestion = progressionArray.join(' ');
-  return [gameQuestion, gameAnswer];
+  return progressionArray.join(' ');
 };
 
 const getGameQuestionAndAnswer = () => {
-  const progressionArrayLength = getRandomNumber(5, 15);
+  const progressionLength = getRandomNumber(5, 15);
   const initialNumber = getRandomNumber(0, 10);
   const step = getRandomNumber(1, 10);
-  const randomIndex = getRandomNumber(0, progressionArrayLength - 1);
-  const progressionArray = getProgressionAndSecretValue({
+  const randomIndex = getRandomNumber(0, progressionLength - 1);
+  const progressionArray = getProgression({
     initialNumber,
     step,
-    length: progressionArrayLength,
+    length: progressionLength,
     randomIndex,
   });
+  const gameAnswer = (step * randomIndex + initialNumber).toString();
 
-  const [gameQuestion, gameAnswer] = progressionArray;
+  const gameQuestion = progressionArray;
   return [gameQuestion, gameAnswer];
 };
 
