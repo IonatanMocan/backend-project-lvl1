@@ -3,7 +3,7 @@ import getRandomNumber from '../getRandomNumber.js';
 
 const rule = 'What number is missing in the progression?';
 
-const getProgression = (
+const getGameQuestion = (
   initialNumber,
   step,
   progressionLength,
@@ -24,7 +24,7 @@ const getGameQuestionAndAnswer = () => {
   const initialNumber = getRandomNumber(0, 10);
   const step = getRandomNumber(1, 10);
   const randomIndex = getRandomNumber(0, progressionLength - 1);
-  const gameQuestion = getProgression(
+  const gameQuestion = getGameQuestion(
     initialNumber,
     step,
     progressionLength,
