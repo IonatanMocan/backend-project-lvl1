@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/IonatanMocan/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/IonatanMocan/backend-project-lvl1/actions)",
+  "description": "A collection of 5 simple console games written in JavaScript",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
