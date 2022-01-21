@@ -22,7 +22,7 @@ Brain Games is a collection of simple console games. All games have the same str
 
 ## ASCIINEMA step #5
 
-[![asciicast](https://asciinema.org/a/TQCMDu4QcT5qd9h3LRTx4nTOJ.svg)](https://asciinema.org/a/TQCMDu4QcT5qd9h3LRTx4nTOJ)
+[![asciicast](https://asciinema.org/a/N6Wtgbe9bSfhKRCJFgBrmqBHk.svg)](https://asciinema.org/a/N6Wtgbe9bSfhKRCJFgBrmqBHk)
 
 ## ASCIINEMA step #6
 
