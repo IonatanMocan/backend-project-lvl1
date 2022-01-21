@@ -26,16 +26,16 @@ Brain Games is a collection of simple console games. All games have the same str
 
 ## ASCIINEMA step #6
 
-[![asciicast](https://asciinema.org/a/2NGhyD2lQhhEbq9Eeq2wahcPU.svg)](https://asciinema.org/a/2NGhyD2lQhhEbq9Eeq2wahcPU)
+[![asciicast](https://asciinema.org/a/t9SQ6GpMqVHZIR9hM36oJzGUL.svg)](https://asciinema.org/a/t9SQ6GpMqVHZIR9hM36oJzGUL)
 
 ## ASCIINEMA step #7
 
-[![asciicast](https://asciinema.org/a/aRUxxvhAQw5HjuJPbDlbSDZeA.svg)](https://asciinema.org/a/aRUxxvhAQw5HjuJPbDlbSDZeA)
+[![asciicast](https://asciinema.org/a/lsd4RJH3S1t94JYIlUfuQ60Lm.svg)](https://asciinema.org/a/lsd4RJH3S1t94JYIlUfuQ60Lm)
 
 ## ASCIINEMA step #8
 
-[![asciicast](https://asciinema.org/a/RppgfmEcByy6pMHFzrgHFSPF6.svg)](https://asciinema.org/a/RppgfmEcByy6pMHFzrgHFSPF6)
+[![asciicast](https://asciinema.org/a/TiWLkgpCXQhTdjkJ8FXphzEBU.svg)](https://asciinema.org/a/TiWLkgpCXQhTdjkJ8FXphzEBU)
 
 ## ASCIINEMA step #9
 
-[![asciicast](https://asciinema.org/a/tXkhvivYkHMkomR6RzUL0ofpT.svg)](https://asciinema.org/a/tXkhvivYkHMkomR6RzUL0ofpT)
+[![asciicast](https://asciinema.org/a/kNjhnZoqfL8qIp7cXD2H2ZNEt.svg)](https://asciinema.org/a/kNjhnZoqfL8qIp7cXD2H2ZNEt)
